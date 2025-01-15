@@ -24,7 +24,8 @@ Belirli bir yıl için altın ve gümüş fiyatlarının performansını karşı
 
 Örnek:
 ```python
-"2023'te altın mı gümüş mü daha çok kazandırdı?"
+analyzer = MetalPriceAnalyzer()
+result = analyzer.analyze(year)
 ```
 
 ## Kurulum
